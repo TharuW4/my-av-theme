@@ -1,0 +1,46 @@
+/* AnimeVerze Responsive CSS */
+
+@media (max-width: 959px) {
+    #page,
+    #primary,
+    #secondary {
+        width: 100%;
+    }
+
+    #primary,
+    #secondary {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .site-footer {
+        width: 100%;
+    }
+
+    #secondary {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .comment-form .comment-form-author,
+    .comment-form .comment-form-email,
+    .comment-form .comment-form-url {
+        width: 100%;
+    }
+
+    .page-content p,
+    .entry-content p {
+        margin-bottom: 18px;
+    }
+
+    #comments .comment-metadata,
+    .comment-respond .comment-metadata {
+        display: none;
+    }
+
+    .pagination .nav-links .page-numbers {
+        font-size: 12px;
+    }
+}

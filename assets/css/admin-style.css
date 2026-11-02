@@ -1,0 +1,11 @@
+/* Upgrade to Pro */
+#wp-admin-bar-videoclub-pro a.ab-item {
+    color: #72aee6 !important;
+}
+
+.editor-styles-wrapper {
+    background-color: #fff;
+    font-family: "Inter", Arial;
+    font-size: 16px;
+    line-height: 1.7em;    
+}
